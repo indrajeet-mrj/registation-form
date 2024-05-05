@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            width: 100%;
+            display: grid;
+            place-items: center;
+            background-color: antiquewhite;
+        }
+        form{
+            height: 100vh;
+            width: 100%;
+            padding: 20px;
+          
+
+        }
+        .header{
+            height: 100px;
+            width: 100%;
+            display: grid;
+            place-items: center;
+        }
+        h2{
+            color: rgb(38, 0, 255);
+          
+        }
+        h1{
+            padding: 5px;
+            border-radius: 8px;
+            outline: 2px solid;
+        }
+        .name{
+            display: flex;
+            margin-top: 20px;
+        }
+        .name input{
+            margin-left: 10px;
+            border: none;
+            outline: none;
+            font-size: 15px;
+            border-bottom: 1px solid;
+            background-color: transparent;
+        }
+       
+        .upload{
+            height: 30%;
+            width: 100%;
+            display: flex;
+            margin-top: 20px;
+        }
+        .document
+        {
+           
+            display: grid;
+            place-items: center;
+        }
+      .document p{
+        margin-top: 10px;
+      }
+      .document button{
+        height: 30px;
+        width: 100px;
+        border: none;
+        background-color: #39ff3977;
+        margin-top: 10px;
+        cursor: pointer;
+      }
+    .final{
+        height: 100px;
+        width: 100%;
+        display: grid;
+        place-items: center;
+    }
+    .final button{
+        height: 30px;
+        width: 150px;
+        background-color: #07f8fcb3;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    button{
+        font-weight: 600;
+    }
+    .branch{
+        margin-top: 10px;
+    }
+    .branch input{
+        margin-left: 5px;
+    }
+    </style>
+</head>
+<body>
+   <form action="">
+    <div class="header">
+    <h1>Registation Form</h1>
+    <h2>Bansal Institute of engineering and Techology Lucknow </h2>
+
+    </div>
+    <div class="main">
+        <div class="name">
+            <p>Student Name* :-</p>
+            <input type="text" required>
+        </div>
+        <div class="name">
+            <p>Father's Name* :-</p>
+            <input type="text" required>
+        </div>  
+        <div class="name">
+            <p>Roll No* :-</p>
+            <input type="text" required>
+        </div>
+        <div class="name">
+            <p>Mobile No* :-</p>
+            <input type="text" required>
+        </div>
+        <div class="name">
+            <p>Whatsapp No* :-</p>
+            <input type="text" required>
+        </div>
+        <div class="branch">
+            <input type="radio" name="branch" required>
+            <Label>CSE</Label>
+            <input type="radio" name="branch" required>
+            <Label>IT</Label>
+            <input type="radio" name="branch" required>
+            <Label>EE</Label>
+            <input type="radio" name="branch" required>
+            <Label>Cvil</Label>
+            <input type="radio" name="branch" required>
+            <Label>Bio Tech</Label>
+        </div>
+        <div class="upload">
+        <div class="document">
+            <input type="file" required>
+            <p>Upoload Image</p>
+            <button>Upload</button>
+        </div>
+        <div class="document">
+            <input type="file" required>
+            <p>Upoload Signature</p>
+            <button>Upload</button>
+        </div>
+        
+    </div>
+    </div>
+   <div class="final"> <button type="submit">Submit</button></div>
+   </form>
+  
+</body>
+</html>
